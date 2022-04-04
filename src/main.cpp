@@ -108,7 +108,7 @@ public:
     _kernel(h), _nu(nu), _h(h), _d0(density),
     _g(g), _eta(eta), _gamma(gamma)
   {
-    _dt = 0.0009;
+    _dt = 0.0005;
     _m0 = _d0*_h*_h;
     _c = std::fabs(_g.y)/_eta;
     _k = _d0*_c*_c/_gamma;
@@ -142,6 +142,7 @@ public:
 
     // make sure for the other particle quantities
     _vel = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
+    _velpr = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
     _acc = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
     _p   = std::vector<Real>(_pos.size(), 0);
     _d   = std::vector<Real>(_pos.size(), 0);
@@ -153,7 +154,7 @@ public:
 
 
     buildNeighbor();
-    computeDensity();
+    computeDensityAndFactors();
     updateColor();
   }
 
@@ -164,16 +165,24 @@ public:
     computePressure();
 
     _acc = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
-    applyPressureForce();
+    //applyPressureForce();
     applyNonPressureForces();
 
-    updateVelocity();
+    adaptTimeStep();
+
+    predictVelocity();
+
+    correctDensityError();
+    
     updatePosition();
 
-    buildNeighbor();
-    computeDensity();
-
     resolveCollision();
+    
+    buildNeighbor();
+    computeDensityAndFactors();
+    updateVelocity();
+
+    
 
     updateColor();
     if(gShowVel) updateVelLine();
@@ -225,11 +234,16 @@ private:
     }
   }
 
-  void computeDensity()
+  void computeDensityAndFactors()
   {
     #pragma omp parallel for
     for(tIndex ind1 = 0; ind1 < particleCount(); ind1++){
       Real dens = 0;
+
+      Real sumAbs = 0;
+      Vec2f absSum = Vec2f(0,0);
+
+
       Vec2f p1 = position(ind1);
 
       std::vector<tIndex> tab = _neigh[ind1];
@@ -240,7 +254,16 @@ private:
         Vec2f p2 = position(ind2);
 
         dens+= _m0*_kernel.w(p1-p2);
+        if((p1-p2).length() == 0) continue;
+
+        Vec2f grad = _m0*_kernel.grad_w(p1-p2);
+        sumAbs += grad.lengthSquare();
+        absSum += grad;
       }
+
+      Real denom = absSum.lengthSquare() + sumAbs + 1e-6f;
+      _alpha[ind1] = -_d[ind1]/denom;
+
       _d[ind1] = dens;
     }
   }
@@ -256,6 +279,7 @@ private:
 
   void applyPressureForce()
   {
+    #pragma omp parallel for
     for(tIndex i = 0 ; i < particleCount(); i++){
       Vec2f pos1 = position(i);
       for(tIndex k = 0; k <_neigh[i].size(); k++){
@@ -270,22 +294,85 @@ private:
 
   void applyNonPressureForces()
   {
+    #pragma omp parallel for
     for(tIndex i = 0; i < particleCount(); i++){
       _acc[i] = _acc[i] - 2*_nu * _vel[i] + _g;
     }
   }
 
+
+  void predictVelocity()
+  {
+    #pragma omp parallel for
+    for(tIndex i = 0; i < _velpr.size(); i++){
+      _velpr[i] = _vel[i] + _dt*_acc[i];
+    }
+  }
+
+  void adaptTimeStep(){
+    Real max_vel = 0;
+    #pragma omp parallel for reduction(max:max_vel)
+    for(tIndex i = 0; i < _velpr.size(); i++){
+      if (_velpr[i].length()>max_vel) max_vel = _velpr[i].length();
+    }
+    _dt = clamp(0.4*_h/(max_vel+1e-6f), 0.0005, 0.005);
+  }
+
+  void correctDensityError(){
+      int iter = 0;
+      while((iter++ < 2) || (_rho_avg - _d0 > _eta)){
+        predictDensity();
+        #pragma omp parallel for
+        for(tIndex i = 0; i < particleCount(); i++){
+          Vec2f sum = Vec2f(0,0);
+          Real ki = std::fmax(((_dpr[i] - _d0)/(_dt*_dt)) * _alpha[i], 0.25);
+          if(i == 500)
+            std::cout << _dpr[i] << ' ' << _alpha[i] << '\n' <<std::flush;
+          for(tIndex k = 0; k < _neigh[i].size(); k++){
+            tIndex j = _neigh[i][k];
+
+            if((_pos[i]-_pos[j]).length() == 0) continue;
+            Real kj = std::fmax(((_dpr[j] - _d0)/(_dt*_dt)) * _alpha[j], 0.25);
+
+            sum+= _m0  * (ki/_d[i] + kj/_d[j]) * _kernel.grad_w(_pos[i]-_pos[j]);
+            
+          }
+          _velpr[i] = _velpr[i] - _dt * sum;
+        }
+      }
+  }
+
+  void predictDensity(){
+    
+    //#pragma omp parallel for reduction(+ : _rho_avg)
+    for(tIndex i = 0; i < particleCount(); i++){
+      Real sum = 0;
+      for(tIndex k = 0; k < _neigh[i].size(); k++){
+        tIndex j = _neigh[i][k];
+        if((_pos[i]-_pos[j]).length() == 0) continue;
+        sum+= _m0  * (_velpr[i]-_velpr[j]).dotProduct(_kernel.grad_w(_pos[i]-_pos[j]));
+      }
+      _dpr[i] = _d[i] + _dt*sum;
+      _rho_avg += _dt*sum;
+      _div_avg += sum;
+    }
+    _rho_avg /= particleCount();
+    _div_avg /= particleCount();
+  }
+
   void updateVelocity()
   {
-    for(int i = 0; i < _vel.size(); i++){
-      _vel[i] = _vel[i] + _dt*_acc[i];
+    #pragma omp parallel for
+    for(tIndex i = 0; i < _vel.size(); i++){
+      _vel[i] = _velpr[i];
     }
   }
 
   void updatePosition()
   {
-    for(int i = 0; i < _vel.size(); i++){
-      _pos[i] = _pos[i] + _dt*_vel[i];
+    #pragma omp parallel for
+    for(tIndex i = 0; i < _vel.size(); i++){
+      _pos[i] = _pos[i] + _dt*_velpr[i];
     }
   }
 
@@ -358,6 +445,8 @@ private:
   Real _l, _r, _b, _t;          // wall (boundary)
 
   // SPH coefficients
+  Real _rho_avg; 
+  Vec2f _div_avg;
   Real _nu;                     // viscosity coefficient
   Real _d0;                     // rest density
   Real _h;                      // particle spacing (i.e., diameter)
