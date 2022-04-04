@@ -104,7 +104,7 @@ class SphSolver {
 public:
   explicit SphSolver(
     const Real nu=1, const Real h=0.5, const Real density=1e3,
-    const Vec2f g=Vec2f(0, -80.8), const Real eta=0.01, const Real gamma=7.0) :
+    const Vec2f g=Vec2f(0, -9.8), const Real eta=0.01, const Real gamma=7.0) :
     _kernel(h), _nu(nu), _h(h), _d0(density),
     _g(g), _eta(eta), _gamma(gamma)
   {
@@ -145,27 +145,33 @@ public:
     _acc = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
     _p   = std::vector<Real>(_pos.size(), 0);
     _d   = std::vector<Real>(_pos.size(), 0);
-
+    _dpr   = std::vector<Real>(_pos.size(), 0);
+    _ddpr   = std::vector<Real>(_pos.size(), 0);
+    _alpha   = std::vector<Real>(_pos.size(), 0);
     _col = std::vector<float>(_pos.size()*4, 1.0); // RGBA
     _vln = std::vector<float>(_pos.size()*4, 0.0); // GL_LINES
 
+
+    buildNeighbor();
+    computeDensity();
     updateColor();
   }
 
   void update()
   {
 
-    buildNeighbor();
-    computeDensity();
+    
     computePressure();
 
     _acc = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
-    applyBodyForce();
     applyPressureForce();
-    applyViscousForce();
+    applyNonPressureForces();
 
     updateVelocity();
     updatePosition();
+
+    buildNeighbor();
+    computeDensity();
 
     resolveCollision();
 
@@ -248,13 +254,6 @@ private:
     }
   }
 
-  void applyBodyForce()
-  {
-    for(tIndex i = 0; i < particleCount(); i++){
-      _acc[i] = _acc[i] + _g;
-    }
-  }
-
   void applyPressureForce()
   {
     for(tIndex i = 0 ; i < particleCount(); i++){
@@ -269,10 +268,10 @@ private:
     }
   }
 
-  void applyViscousForce()
+  void applyNonPressureForces()
   {
     for(tIndex i = 0; i < particleCount(); i++){
-      _acc[i] = _acc[i] - 2*_nu * _vel[i];
+      _acc[i] = _acc[i] - 2*_nu * _vel[i] + _g;
     }
   }
 
@@ -336,9 +335,13 @@ private:
   // particle data
   std::vector<Vec2f> _pos;      // position
   std::vector<Vec2f> _vel;      // velocity
+  std::vector<Vec2f> _velpr;    // predicted velocity
   std::vector<Vec2f> _acc;      // acceleration
   std::vector<Real>  _p;        // pressure
+  std::vector<Real>  _alpha;
   std::vector<Real>  _d;        // density
+  std::vector<Real>  _dpr;      // predicted density
+  std::vector<Real>  _ddpr;     // predicted divergence
 
   std::vector< std::vector<tIndex> > _pidxInGrid; // will help you find neighbor particles
   std::vector<std::vector<tIndex>> _neigh;
