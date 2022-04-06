@@ -308,12 +308,12 @@ private:
         #pragma omp parallel for
         for(tIndex i = 0; i < particleCount(); i++){
           Vec2f sum = Vec2f(0,0);
-          Real ki = fmin((_dpr[i] - _d0)/_dt/_dt * _alpha[i], 0.25);
+          Real ki = fmin(0.01*(_dpr[i] - _d0)/_dt/_dt * _alpha[i], 0.25);
           for(tIndex k = 0; k < _neigh[i].size(); k++){
             tIndex j = _neigh[i][k];
 
             if((_pos[i]-_pos[j]).length() == 0) continue;
-            Real kj = fmin((_dpr[j] - _d0)/_dt/_dt* _alpha[j], 0.25);
+            Real kj = fmin(0.01*(_dpr[j] - _d0)/_dt/_dt* _alpha[j], 0.25);
 
             sum+= _m0  * (ki/_d[i] + kj/_d[j]) * _kernel.grad_w(_pos[i]-_pos[j]);
           }
