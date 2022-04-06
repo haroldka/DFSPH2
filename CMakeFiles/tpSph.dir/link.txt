@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/tpSph.dir/src/main.cpp.o  -o tpSph  -lOpenGL -lGLX dep/glfw/src/libglfw3.a -ldl -lrt -lm -ldl -lX11 -lpthread 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tpSph.dir/src/main.cpp.o  -o tpSph  -lOpenGL -lGLX dep/glfw/src/libglfw3.a -ldl -lrt -lm -ldl -lX11 -lpthread 

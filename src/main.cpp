@@ -33,6 +33,7 @@
 #include "Vector.hpp"
 
 // window parameters
+bool t = true;
 GLFWwindow *gWindow = nullptr;
 int gWindowWidth = 1024;
 int gWindowHeight = 768;
@@ -152,36 +153,43 @@ public:
     _col = std::vector<float>(_pos.size()*4, 1.0); // RGBA
     _vln = std::vector<float>(_pos.size()*4, 0.0); // GL_LINES
 
+    _iter = 0;
 
+    
     buildNeighbor();
     computeDensityAndFactors();
+
+    //initialize average density
+    _rho_avg = 0;
+    for(tIndex i = 0; i <_pos.size();i++){
+      _rho_avg+=_d[i];
+    }
+    _rho_avg/=_pos.size();
+    _d0 = _rho_avg;
     updateColor();
   }
 
   void update()
   {
-
-    
-    computePressure();
-
     _acc = std::vector<Vec2f>(_pos.size(), Vec2f(0, 0));
-    //applyPressureForce();
     applyNonPressureForces();
 
-    adaptTimeStep();
+    adaptTimeStep(); 
 
     predictVelocity();
 
     correctDensityError();
-    
     updatePosition();
 
     resolveCollision();
     
     buildNeighbor();
     computeDensityAndFactors();
-    updateVelocity();
 
+    correctDivergenceError();
+
+    updateVelocity();
+    //_iter++;
     
 
     updateColor();
@@ -224,7 +232,7 @@ private:
     for(tIndex part = 0; part < particleCount(); part++){
       int i = idx1d((int)((_pos[part]).x), (int)((_pos[part]).y));
       for(tIndex k = (i%resX() == 0 ? i : i-1); k <= ((i+1)%resX() == 0 ? i : i+1); k++){
-        for(tIndex l = k<resX() ? k : k-resX(); l <=  (k > _pidxInGrid.size()-resX()-1 ? k : k + resX()); l+=resX()){
+        for(tIndex l = k<resX() ? k : k-resX(); l <=  (k > _pidxInGrid.size()-resX()-1 ? k : k + resX()); l+=resX()){;
           std::vector<tIndex> tab = _pidxInGrid[l];
           for(tIndex p = 0; p < tab.size(); p++){
             _neigh[part].push_back(tab[p]);
@@ -252,7 +260,6 @@ private:
 
         tIndex ind2 = tab[p];
         Vec2f p2 = position(ind2);
-
         dens+= _m0*_kernel.w(p1-p2);
         if((p1-p2).length() == 0) continue;
 
@@ -262,33 +269,8 @@ private:
       }
 
       Real denom = absSum.lengthSquare() + sumAbs + 1e-6f;
-      _alpha[ind1] = -_d[ind1]/denom;
-
+      _alpha[ind1] = -dens/denom;
       _d[ind1] = dens;
-    }
-  }
-
-  void computePressure()
-  {
-    #pragma omp parallel for
-    for(tIndex i = 0 ; i < particleCount(); i++){
-      _p[i] = equationOfState(_d[i], _d0, _k);
-      if(_p[i]<0) _p[i] = 0;
-    }
-  }
-
-  void applyPressureForce()
-  {
-    #pragma omp parallel for
-    for(tIndex i = 0 ; i < particleCount(); i++){
-      Vec2f pos1 = position(i);
-      for(tIndex k = 0; k <_neigh[i].size(); k++){
-        tIndex j = _neigh[i][k];
-        Vec2f pos2 = position(j);
-        if((pos1-pos2).length()==0) continue;
-        _acc[i] = _acc[i] - _m0 * (_p[i]/(_d[i]*_d[i]) + _p[j]/(_d[j]*_d[j])) * _kernel.grad_w(pos1-pos2);
-        
-      }
     }
   }
 
@@ -315,49 +297,76 @@ private:
     for(tIndex i = 0; i < _velpr.size(); i++){
       if (_velpr[i].length()>max_vel) max_vel = _velpr[i].length();
     }
-    _dt = clamp(0.4*_h/(max_vel+1e-6f), 0.0005, 0.005);
+    _dt = clamp(0.4*0.01/(max_vel+1e-6f), 0.0005, 0.004);
   }
 
   void correctDensityError(){
       int iter = 0;
-      while((iter++ < 2) || (_rho_avg - _d0 > _eta)){
+      predictDensity();
+      while(iter++<2 || ((_rho_avg- _d0) > _eta)){
         predictDensity();
         #pragma omp parallel for
         for(tIndex i = 0; i < particleCount(); i++){
           Vec2f sum = Vec2f(0,0);
-          Real ki = std::fmax(((_dpr[i] - _d0)/(_dt*_dt)) * _alpha[i], 0.25);
-          if(i == 500)
-            std::cout << _dpr[i] << ' ' << _alpha[i] << '\n' <<std::flush;
+          Real ki = fmin((_dpr[i] - _d0)/_dt/_dt * _alpha[i], 0.25);
           for(tIndex k = 0; k < _neigh[i].size(); k++){
             tIndex j = _neigh[i][k];
 
             if((_pos[i]-_pos[j]).length() == 0) continue;
-            Real kj = std::fmax(((_dpr[j] - _d0)/(_dt*_dt)) * _alpha[j], 0.25);
+            Real kj = fmin((_dpr[j] - _d0)/_dt/_dt* _alpha[j], 0.25);
 
             sum+= _m0  * (ki/_d[i] + kj/_d[j]) * _kernel.grad_w(_pos[i]-_pos[j]);
-            
           }
-          _velpr[i] = _velpr[i] - _dt * sum;
+          _velpr[i] = _velpr[i] + _dt * sum;
         }
       }
   }
 
   void predictDensity(){
-    
+    _rho_avg = 0;
+    _div_avg = 0;
     //#pragma omp parallel for reduction(+ : _rho_avg)
     for(tIndex i = 0; i < particleCount(); i++){
       Real sum = 0;
       for(tIndex k = 0; k < _neigh[i].size(); k++){
         tIndex j = _neigh[i][k];
-        if((_pos[i]-_pos[j]).length() == 0) continue;
+        if((_pos[i]-_pos[j]).length() ==0) continue;
         sum+= _m0  * (_velpr[i]-_velpr[j]).dotProduct(_kernel.grad_w(_pos[i]-_pos[j]));
       }
       _dpr[i] = _d[i] + _dt*sum;
-      _rho_avg += _dt*sum;
+      _ddpr[i] = sum;
+      _rho_avg += _d[i] + _dt*sum;
       _div_avg += sum;
     }
     _rho_avg /= particleCount();
+   
+    
     _div_avg /= particleCount();
+  }
+
+  void correctDivergenceError(){
+      int iter = 0;
+      predictDensity();
+      while((iter++ < 1) || (_div_avg > _eta)){
+        predictDensity();
+        #pragma omp parallel for
+        for(tIndex i = 0; i < particleCount(); i++){
+          Vec2f sum = Vec2f(0,0);
+          Real ki = fmin(1/_dt * _ddpr[i]* _alpha[i], 0.25);
+          
+          for(tIndex k = 0; k < _neigh[i].size(); k++){
+            tIndex j = _neigh[i][k];
+
+            if((_pos[i]-_pos[j]).length() == 0) continue;
+            Real kj =  fmin((1/_dt*_ddpr[j]) * _alpha[j],0.25);
+
+            sum+= _m0  * (ki/_d[i] + kj/_d[j]) * _kernel.grad_w(_pos[i]-_pos[j]);
+            
+          }
+          _velpr[i] = _velpr[i] + _dt * sum;
+          
+        }
+      }
   }
 
   void updateVelocity()
@@ -392,7 +401,7 @@ private:
       const Vec2f p0 = _pos[*it];
       _pos[*it].x = clamp(_pos[*it].x, _l, _r);
       _pos[*it].y = clamp(_pos[*it].y, _b, _t);
-      _vel[*it] = (_pos[*it] - p0)/_dt;
+      _velpr[*it] = (_pos[*it] - p0)/_dt;
     }
   }
 
@@ -438,6 +447,7 @@ private:
 
   // simulation
   Real _dt;                     // time step
+  int _iter;
 
   int _resX, _resY;             // background grid resolution
 
@@ -446,7 +456,7 @@ private:
 
   // SPH coefficients
   Real _rho_avg; 
-  Vec2f _div_avg;
+  Real _div_avg;
   Real _nu;                     // viscosity coefficient
   Real _d0;                     // rest density
   Real _h;                      // particle spacing (i.e., diameter)
@@ -653,7 +663,9 @@ void render()
 // Update any accessible variable based on the current time
 void update(const float currentTime)
 {
+  
   if(!gAppTimerStoppedP) {
+    t = false;
     // NOTE: When you want to use application's dt ...
     // const float dt = currentTime - gAppTimerLastClockTime;
     // gAppTimerLastClockTime = currentTime;
@@ -672,7 +684,7 @@ int main(int argc, char **argv)
     render();
     glfwSwapBuffers(gWindow);
     glfwPollEvents();
-  }
+  } 
   clear();
   std::cout << " > Quit" << std::endl;
   return EXIT_SUCCESS;

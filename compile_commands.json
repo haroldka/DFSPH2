@@ -1,442 +1,442 @@
 [
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation",
-  "command": "/usr/bin/c++   -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu++11 -o CMakeFiles/tpSph.dir/src/main.cpp.o -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/src/main.cpp\"",
+  "command": "/usr/bin/c++   -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu++11 -o CMakeFiles/tpSph.dir/src/main.cpp.o -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/src/main.cpp\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/src/main.cpp"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/context.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/context.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/context.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/init.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/init.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/init.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/input.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/input.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/input.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/monitor.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/monitor.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/monitor.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/vulkan.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/vulkan.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/vulkan.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/window.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/window.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/window.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_init.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_init.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_init.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_monitor.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_monitor.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_monitor.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_window.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_window.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/x11_window.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/xkb_unicode.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/xkb_unicode.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/xkb_unicode.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/posix_time.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/posix_time.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/posix_time.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/posix_thread.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/posix_thread.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/posix_thread.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/glx_context.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/glx_context.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/glx_context.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/egl_context.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/egl_context.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/egl_context.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/osmesa_context.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/osmesa_context.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/osmesa_context.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/linux_joystick.c\"",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src\"  -g -fPIC   -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/linux_joystick.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/src/linux_joystick.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/boing.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/boing.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/boing.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/gears.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/gears.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/gears.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/heightmap.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/heightmap.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/heightmap.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/sharing.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/sharing.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/sharing.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/particles.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/particles.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/particles.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/simple.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/simple.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/simple.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/splitview.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/splitview.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/splitview.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/offscreen.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/offscreen.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/offscreen.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/wave.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/wave.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples/wave.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/examples",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/triangle-vulkan.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/triangle-vulkan.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/triangle-vulkan.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_vulkan.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_vulkan.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_vulkan.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/tearing.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/tearing.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/tearing.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/title.dir/title.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/title.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/title.dir/title.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/title.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/title.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/opacity.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/opacity.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/opacity.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/clipboard.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/clipboard.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/clipboard.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/msaa.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/msaa.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/msaa.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/glfwinfo.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/glfwinfo.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/glfwinfo.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_vulkan.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_vulkan.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_vulkan.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/iconify.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/iconify.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/iconify.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/reopen.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/reopen.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/reopen.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/gamma.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/gamma.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/gamma.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/monitors.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/monitors.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/monitors.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/windows.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/windows.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/windows.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/timeout.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/timeout.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/timeout.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/inputlag.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/inputlag.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/inputlag.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/threads.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/threads.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/threads.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/cursor.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/cursor.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/cursor.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/empty.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/empty.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/empty.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/tinycthread.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/icon.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/icon.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/icon.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/events.dir/events.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/events.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/events.dir/events.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/events.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/events.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/getopt.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/joysticks.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/joysticks.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests/joysticks.c"
 },
 {
   "directory": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/tests",
-  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"    -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
+  "command": "/usr/bin/cc  -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps\" -I\"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/include\"  -g   -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o   -c \"/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c\"",
   "file": "/home/harold/Desktop/S2/IG3D/Victoire de la nation/dep/glfw/deps/glad_gl.c"
 }
 ]
